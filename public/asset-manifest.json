@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7850b5c.css",
+    "main.js": "/static/js/main.ef11ab57.js",
+    "static/media/bannerManTablet.png": "/static/media/bannerManTablet.4d0249576f0a8fb59f25.png",
+    "static/media/cropedLogo.png": "/static/media/cropedLogo.07a8159b1b06de7769d0.png",
+    "static/media/call24.svg": "/static/media/call24.e0f9768262b986b790cafa95c77eaeab.svg",
+    "index.html": "/index.html",
+    "main.e7850b5c.css.map": "/static/css/main.e7850b5c.css.map",
+    "main.ef11ab57.js.map": "/static/js/main.ef11ab57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7850b5c.css",
+    "static/js/main.ef11ab57.js"
+  ]
+}
