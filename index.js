@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path');
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -11,9 +12,12 @@ app.use(bodyParser.json());
 //ROUTERS/////////////////////////////////////////////////////////////////////////////
 
 //branches route---------------
-const home = require('./routes/home');
-app.use("/", home);
+// const home = require('./routes/home');
+// app.use("/", home);
 
+app.get('*', (req,res) =>{
+    res.sendFile(path.join(__dirname+'/public/index.html'));
+});
 // // menu route------------------
 // const menuRouter = require('./routes/menuRouter');
 // app.use("/menu", menuRouter);
